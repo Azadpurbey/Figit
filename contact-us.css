@@ -1,0 +1,84 @@
+body{
+	background-color: #F2F2F2;
+}
+.container-azad {
+	width: 65%;
+	margin: 15px auto;
+	border-radius: 30px;
+	
+}
+.head-content{
+	width: 65%;
+	margin:9rem auto 6rem auto;
+	font-weight: 900;
+	font-size: 36px;
+	text-align:center;
+}
+.form-content{
+	text-align: center;
+}
+.form-content h5{
+	font-weight: bold;
+	padding-top: 2rem;
+}
+.container-azad.contact{
+	background-color: white;
+	padding: 2rem;
+}
+.container-azad img{
+	float: right;
+}
+
+
+.container-azad.map{
+	background-color: #240C48 ;  
+	padding: 3rem;
+	margin-top: 5rem;
+	margin-bottom:5rem;
+	letter-spacing: 1px;
+}
+.container-azad.map .content{
+	color: white;
+	font-weight: 900;
+
+}
+div.address h3, div.address p{
+	display:inline-block;
+
+}
+div.email h3, div.email p{
+	display:inline-block;
+}
+div.phone h3, div.phone p{
+	display:inline-block;
+}
+
+
+/*socila links*/
+.social a{
+	font-size: 4.5rem;
+	padding: 3rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-google-plus-g{
+	color: #dd4b39;
+}
+.fa-instagram{
+	color: #3f729b;
+}
+.fa-youtube{
+	color: #bb0000;
+}
+.fa-facebook:hover, 
+.fa-twitter:hover, 
+.fa-google-plus-g:hover, 
+.fa-instagram:hover,
+.fa-youtube:hover{
+	color: #d5d5d5;
+}
+
