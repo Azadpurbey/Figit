@@ -1,3 +1,7 @@
+.hidden_style {
+  display: none;
+}
+
 .container-azad {
 	width: 60%;
 	margin: 2rem auto;
@@ -37,4 +41,20 @@ a.cross{
 .fa-twitter:hover, 
 .fa-google:hover{
 	color: #d5d5d5;
+}
+.clearfix {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+#user-info {
+  border: none;
+  clear: both;
+  margin: 0 auto 20px;
+  max-width: 400px;
+  padding: 10px;
+  text-align: left;
 }

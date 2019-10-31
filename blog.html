@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/blog.css">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.css" />
+  <script src="js/index.js"></script>
+  <script src="js/blog.js"></script>
+</head>
+
+<body>
+
+  <!-- nav bar  -->
+  <nav class="navbar navbar-invert navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">
+          <img width="40" alt="Brand" src="./image/index/logo.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-links">
+        <ul id="links" class="nav navbar-nav navbar-right">
+          <li> <a href="./about.html">ABOUT</a></li>
+          <li> <a href="./features.html">FEATURES</a></li>
+          <li> <a class="active" href="./blogs.html">BLOGS</a></li>
+          <li> <a href="./contact-us.html">CONTACT US</a></li>
+          <li> <a href="./account.html">ACCOUNT</a></li>
+          <li id="signIn"> <a href="./sign-in.html">SIGN IN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar ends -->
+
+  <div id='container'>
+    <div class="row block">
+      <div class="col-md-12 ">
+        <div class="card">
+          <div class="thumbnail card">
+            <div class="head">
+              <div class="logo">
+                <img style="width: 100%;" src="./image/blogs/new logo2.png">
+              </div>
+              <div class="middle">
+                <h5 id="author">Loading...</h5>
+                <p id="date">Loading...</p>
+              </div>
+            </div>
+            <div class="body">
+              <img class="card-img-top" id="image" src="./image/blogs/tenor.gif" height="400">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" id="title">Loading...</h4>
+              <p class="card-text" id="description">Loading...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-right">
+      <button id="delete" class="btn btn-lg btn-danger">Delete</button>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <a href="" id="update" class="btn btn-lg btn-primary">Update</a>
+    </div>
+  </div>
+  
+
+
+  <!-- site map -->
+  <div class="site-map" style="margin-top: 100px">
+    <footer>
+      <div id="foot" class="container">
+        <div class="row">
+          <div class="col-sm-5 pink">
+            <div class="logo">
+              <img style="width: 100%;" src="./image/index/purple.png">
+            </div>
+            <h6 style="margin: 0 auto;">Address: Lorem ipsum dolor sit amet,eu quidam omnesque pro. Incum salutandi
+              gubergren </h6>
+          </div>
+          <div class="col-sm-2 pink">
+            <h6 class="blue">COMPANY</h6>
+            <a href="./index.html">Home Page</a> <br>
+            <a href="#">Discover</a> <br>
+            <a href="./about.html">About us</a>
+          </div>
+          <div class="col-sm-2 pink">
+            <h6 class="blue">INFORMATION</h6>
+            <a href="./sign-in.html">Creat Accounts</a> <br>
+            <a href="#">Careers</a>
+          </div>
+          <div class="col-sm-2 pink">
+            <h6 class="blue">LEGAL</h6>
+            <a href="#">Privacy Policy</a> <br>
+            <a href="#">Cookie Policy</a> <br>
+            <a href="#">Terms of Usage</a>
+          </div>
+          <div class="col-sm-1">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- site map ends -->
+
+
+</body>
+
+</html>

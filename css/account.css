@@ -1,6 +1,11 @@
 .main-container{
 	padding: 5rem 10rem; 
 }
+
+.hidden-style{
+  display: none;
+}
+
 .heading{
 	font-weight: 900;
 }

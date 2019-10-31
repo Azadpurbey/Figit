@@ -9,20 +9,17 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-
   <style>
     /*body{    
     font-family: 'Roboto Condensed', sans-serif;
     overflow-x: hidden;
-    
 }
 */
     /*body { background-image: url(ur.jpg);}*/
     /*        h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}*/
-
     .hi-slide {
       position: relative;
       width: 754px;
@@ -38,8 +35,6 @@
       height: 40px;
       /* margin-top: -20px; */
       border-radius: 100px;
-
-
       line-height: 40px;
       text-align: center;
       cursor: pointer;
@@ -81,7 +76,6 @@
       padding: 0;
     }
 
-
     .hi-slide>ul>li {
       overflow: hidden;
       position: absolute;
@@ -104,14 +98,9 @@
       background-position: center;
     }
   </style>
-
-
-
-
 </head>
 
 <body>
-
   <!-- nav bar  -->
   <nav class="navbar navbar-invert navbar-fixed-top">
     <div class="container-fluid">
@@ -127,7 +116,6 @@
           <img width="40" alt="Brand" src="./image/index/logo.png">
         </a>
       </div>
-
       <div class="collapse navbar-collapse" id="navbar-links">
         <ul id="links" class="nav navbar-nav navbar-right">
           <li> <a href="./about.html">ABOUT</a></li>
@@ -135,13 +123,13 @@
           <li> <a href="./blogs.html">BLOGS</a></li>
           <li> <a href="./contact-us.html">CONTACT US</a></li>
           <li> <a href="./account.html">ACCOUNT</a></li>
-          <li id="signIn"> <a href="./sign-in.html">SIGN IN</a></li>
+          <li id="user-signed-in"> <a href="./sign-in.html">SIGN IN</a></li>
+          <!-- <li id="user-signed-out"> <a href="./sign-in.html">SIGN OUT</a></li> -->
         </ul>
       </div>
     </div>
   </nav>
   <!-- nav bar ends -->
-
   <!-- 1st Section -->
   <div class="home1">
     <div id="second" class="container">
@@ -187,7 +175,6 @@
       </div>
     </div>
   </div>
-
   <!-- 3rd Section -->
   <div class="sections section3">
     <div id="forth" class="container">
@@ -200,20 +187,16 @@
       <img width=70% src="./image/index/web skills.png">
     </div>
   </div>
-
   <!-- 4th Section -->
   <div class="sections section4">
     <div id="fifth" class="container-azad special">
       <h1>Review</h1>
       <div class="slide hi-slide">
-
         <div class="hi-prev "></div>
         <div class="hi-next "></div>
         <ul>
           <li>
-
             <h4>Tejas Bagrecha</h4>
-
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
               cum salutandi gubergren assentior,nec ei reque timeam<br>
@@ -222,10 +205,8 @@
               tacimates. Eos ad dictas animal assueverit, duo eu mollis
               accusam.
             </p>
-
           </li>
           <li>
-
             <h4>Acquilin Jon</h4>
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
@@ -237,7 +218,6 @@
             </p>
           </li>
           <li>
-
             <h4>Neel Tripathi </h4>
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
@@ -249,19 +229,14 @@
             </p>
           </li>
           <li>
-
-
             <h4>Piyush Deval </h4>
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
               cum salutandi gubergren assentior,nec ei reque timeam<br>
               delenit,eruditi fabellas consectetuer at eam. Qui ne sint
-
             </p>
           </li>
-
           <li>
-
             <h4>Sajel Saxena </h4>
             <p>
               Lorem ipsum dolor sit amet, eu quidam omnesque pro. In
@@ -273,7 +248,6 @@
             </p>
           </li>
           <li>
-
             <h4>Neel Tripathi </h4>
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
@@ -285,28 +259,18 @@
             </p>
           </li>
           <li>
-
-
             <h4>Piyush Deval </h4>
             <p>
               Lorem ipsum dolor sit amet,eu quidam omnesque pro. In
               cum salutandi gubergren assentior,nec ei reque timeam<br>
               delenit,eruditi fabellas consectetuer at eam. Qui ne sint
-
             </p>
           </li>
-
-
-
         </ul>
       </div>
-
     </div>
   </div>
   </div>
-
-
-
   <!-- 5th Section -->
   <div class="sections section5">
     <div id="sixth" class="container-azad">
@@ -322,8 +286,6 @@
           </p>
           <a href="#"><img style="padding-top: 4rem;width:30%;" src="./image/index/download the app.png"></a>
         </div>
-
-
         <div class="col-sm-5 ">
           <div class="thumbnail">
             <img src="./image/index/download vector.png">
@@ -332,9 +294,6 @@
       </div>
     </div>
   </div>
-
-
-
   <!-- site map -->
   <div class="site-map">
     <footer>
@@ -377,6 +336,21 @@
     $('.slide').hiSlide();
   </script>
 
+
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-firestore.js"></script>
+  <script src="https://cdn.firebase.com/libs/firebaseui/4.2.0/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.2.0/firebaseui.css">
+
+
+
+  
 </body>
 
 </html>

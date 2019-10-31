@@ -57,7 +57,7 @@ body{
 }
 .block{
 	border-radius: 10px;
-    background color:white; 
+    background-color:white; 
     margin:10px;  
 }
 .card-title{
@@ -72,14 +72,8 @@ body{
 	width: 25%;
     background: #F2F2F2;
 }
-.side-content .oval{
-	width: 70px;
-	height: 60px;
-	background: url("./image/blogs/1.jpg");
-	-moz-border-radius: 80px / 50px;
-	-webkit-border-radius: 80px / 50px;
-	border-radius: 80px / 50px;
-}
+
+
 .item2 .col-md-3{
 padding: 0px;
 }

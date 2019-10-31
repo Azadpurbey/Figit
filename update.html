@@ -10,8 +10,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/blogs.css">
-
+  <link rel="stylesheet" type="text/css" href="css/blog.css">
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
@@ -23,17 +22,7 @@
   <script src="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.js"></script>
   <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth.css" />
   <script src="js/index.js"></script>
-  <script src="js/blogs.js"></script>
-  <style>
-    .oval {
-      width: 100% !important;
-      height: 100% !important;
-      /* background: url("./image/blogs/1.jpg"); */
-      -moz-border-radius: 80px / 50px !important;
-      -webkit-border-radius: 80px / 50px !important;
-      border-radius: 80px / 50px !important;
-    }
-  </style>
+  <script src="js/update.js"></script>
 </head>
 
 <body>
@@ -53,7 +42,6 @@
           <img width="40" alt="Brand" src="./image/index/logo.png">
         </a>
       </div>
-
       <div class="collapse navbar-collapse" id="navbar-links">
         <ul id="links" class="nav navbar-nav navbar-right">
           <li> <a href="./about.html">ABOUT</a></li>
@@ -68,22 +56,45 @@
   </nav>
   <!-- nav bar ends -->
 
-  <div id='container'>
-    <div id="item1" class='item1'>
-      <h1 class="display-3">Loading...</h1>
-    </div>
+  <form class="container" id="update_entry">
+    <h4>Author</h4>
+    <input type="text" id="author" name="author" class="form-control col-md-12 v" value="Loading..." required>
+
+    <br>
+    <br>
+    <h4>Date</h4>
+    <input type="text" id="date" name="date" class="form-control col-md-12" value="Loading..." required>
+
+    <br>
+    <br>
+    <h4>Title</h4>
+    <input type="text" id="title" name="title" class="form-control col-md-12" value="Loading..." required>
+
+    <br>
+    <br>
+
+    <h4>Description</h4>
+    <textarea name="description" id="description" rows="14" class="form-control" required>Loading...</textarea>
 
 
-    <div id='item2' class='item2'>
-      <div class="side-content">
-        <p style="height: 80vh;">Loading...</p>
-      </div>
+    <br>
+    <br>
+
+    <h4>Image URL</h4>
+    <input type="text" id="image" name="image" class="form-control col-md-12" value="Loading..." required>
+
+    <br>
+    <br>
+
+    <div class="text-right">
+      <button class="btn btn-large btn-primary">Update</button>
     </div>
-  </div>
+  </form>
+
 
 
   <!-- site map -->
-  <div class="site-map">
+  <div class="site-map" style="margin-top: 50px">
     <footer>
       <div id="foot" class="container">
         <div class="row">
@@ -119,6 +130,8 @@
   </div>
   <!-- site map ends -->
 
+
+  <script src="//cdn.ckeditor.com/4.5.10/standard/ckeditor.js"></script>
 
 </body>
 
