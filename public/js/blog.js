@@ -24,7 +24,7 @@ blog.on("value", function(item) {
     document.getElementById("delete").addEventListener("click", function() {
       if (confirm("This entry will be permanently delete. Are you sure?")) {
         blog.remove();
-        window.location.href='index.html';
+        window.location.href='blogs.html';
       }
     });
 
