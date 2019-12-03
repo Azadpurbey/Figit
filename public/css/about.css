@@ -9,15 +9,6 @@ p{
 	font-size: 1.2em;
 }
 
-.section1{
-	background-image: url("../image/about/about main pic.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100vh;
-}
-
-
-}
 .section2{
 	background-color: white;
 	width: 70%;
